@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="bg-gray-700 flex w-full h-auto">
         <div className="flex justify-center w-screen">
           <ul className="flex items-center justify-evenly w-3/4">
-            <li className="text-white text-2xl flex h-16 items-center  hover:text-black relative"
+            <li className="text-white text-2xl flex h-16 items-center group hover:text-black relative"
             onMouseEnter={()=>setOpenMenu({openMenu, gallery:true})}
             onMouseLeave={()=>setOpenMenu({openMenu, gallery:false})}
             >
