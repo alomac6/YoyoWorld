@@ -30,21 +30,13 @@ body {
     opacity: 1;
   }
 }
-
 .animate-dropdown-1 {
-  animation: dropdown 0.01s forwards;
+  animation: dropdown 0.2s forwards;
   animation-delay: 0.1s;
   visibility: hidden;
 }
-
 .animate-dropdown-2 {
-  animation: dropdown 0.01s forwards;
+  animation: dropdown 0.2s forwards;
   animation-delay: 0.2s;
-  visibility: hidden;
-}
-
-.animate-dropdown-3 {
-  animation: dropdown 0.01s forwards;
-  animation-delay: 0.3s;
   visibility: hidden;
 }
